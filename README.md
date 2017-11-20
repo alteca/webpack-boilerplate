@@ -18,9 +18,9 @@ The "/src/entries.js" file is the entry point for what you expose to webpack and
 {
   app: 'app.js',
   pages: {
-    admin: 'admin.js',
     user: 'user.js',
-    stats: {
+    admin: {
+      index: 'admin.js',
       stats: 'stats.js'
     }
   }

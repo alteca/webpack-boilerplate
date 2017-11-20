@@ -3,9 +3,9 @@ const normalizeEntries = require('../build-utils/normalizeEntries');
 const entries = {
   app: 'app.js',
   pages: {
-    admin: 'admin.js',
     user: 'user.js',
-    stats: {
+    admin: {
+      index: 'admin.js',
       stats: 'stats.js'
     }
   }
