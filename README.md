@@ -41,3 +41,4 @@ or
 
 * use css-loader to build css and get him from dist folder
 * add external library like jquery and expose it to each modules
+* create prod build
