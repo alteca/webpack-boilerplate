@@ -27,7 +27,7 @@ The "/src/entries.js" file is the entry point for what you expose to webpack and
 }
 ```
 
-The build result will be following exactly the json entry path. So each time you add an entry, you now exactly what will be produced.
+The build result will be following exactly the json entry path. So each time you add an entry, you know exactly what will be produced.
 
 ### Build the project
 
