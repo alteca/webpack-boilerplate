@@ -1,18 +1,17 @@
 # webpack-boilerplate
 
-Webpack project to describe how build resources in all projects.
+A Webpack project to describe how to build resources in all kind of projects.
 
 ## Why
 
-It's not because you don't use frontend framwork or ui library that you cannot use modern tools.
+Not using frontend framework or ui library doesn't mean you can't use modern tools.
+This project is trying to describe how you can structure your app to keep your code clean, also, it helps you using principles as DRY or KISS.
 
-This project try to describe how you can structure your app to keep your code clean and following concepts as DRY and KISS.
 
 ## How to use
 
-In this scenario we want one file dedicated to a page.
-
-The "/src/entries.js" file is the entry point for what you expose to webpack and what will be build.
+In this scenario, each page must have its own file.
+The "/src/entries.js" file is the input, it describes the pages that will be built by Webpack.
 
 ```js
 {
@@ -27,7 +26,7 @@ The "/src/entries.js" file is the entry point for what you expose to webpack and
 }
 ```
 
-The build result will be following exactly the json entry path. So each time you add an entry, you know exactly what will be produced.
+The compiled files will be located as described in the json input. This way, every time you add an entry, you'll know exactly what will be generated.
 
 ### Build the project
 
